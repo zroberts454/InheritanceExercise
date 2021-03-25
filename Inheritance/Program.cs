@@ -22,12 +22,32 @@ namespace Inheritance
 
 
 
+            var b = new Bird();
+            b.Color = "Blue";
+            b.hasBeak = true;
+            b.hasFeathers = true;
+            b.laysEggs = true;
+            b.Age = 10;
+            b.Breed = "Hawk";
+            b.Name = "Bob";
+            b.Noise = "KAWWW";
+
+
 
             /*Create an object of your Bird class
              *  give values to your members using the object of your Bird class
              *  
              * Creatively display the class member values 
              */
+            var r = new Reptile();
+            r.hasLegs = true;
+            r.canRun = true;
+            r.Length = 40;
+            r.underWater = true;
+            r.Age = 2;
+            r.Breed = "Frog";
+            r.Name = "Jeffrey";
+            r.Noise = "REE BITT";
 
             /*Create an object of your Reptile class
              *  give values to your members using the object of your Bird class
